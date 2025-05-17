@@ -2,15 +2,12 @@
   "name": "thesis-progress-tracker",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://alejandroL15.github.io/Tesis",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
